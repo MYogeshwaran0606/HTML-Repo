@@ -1,0 +1,33 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+   
+a:hover{
+    color: green;
+}
+div::first-letter{
+   font-size: xx-large; font-weight:400px; text-shadow: 3px 4px 4px rgb(111, 50, 167);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 3px solid black;
+    text-align: center;
+}
+tbody th{
+    background-color: blueviolet;
+}
+tbody tr:nth-child(odd){
+    background-color: darkcyan;
+}
+tbody tr:nth-child(even){
+    background-color: burlywood;
+}
+thead th{
+    background-color: darkkhaki;
+}

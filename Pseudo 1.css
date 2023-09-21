@@ -1,0 +1,18 @@
+div::first-line{
+    font-size: xx-large; font-weight:400px; text-shadow: 3px 4px 4px rgb(26, 226, 62);
+}
+div::first-letter{
+    font-size: xx-large; font-weight: 900; text-shadow: 5px 5px 8px rgb(50, 47, 255); 
+}
+h2::before{
+    content: 'The ';
+    color: blue;
+}
+h2::after{
+    content: ' Elements ';
+    color: chartreuse;
+}
+::marker{
+    color: chartreuse;
+    font-size: 25PX;
+}

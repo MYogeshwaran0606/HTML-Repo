@@ -1,0 +1,53 @@
+.loura{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.loura1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.loura4{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.loura2{
+    grid-row-start: 1;
+    grid-row-end: 4;   
+}
+.loura9{
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column-start: 5;
+        grid-column-end: 7;
+}
+.loura11{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.loura13{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.loura5{
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.loura10{
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }

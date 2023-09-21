@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+.one{
+    display: inline;
+    background-color: rgb(14, 185, 227);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6;   
+    box-shadow: 5px 10px 5px rgb(53, 83, 60);
+}
+.one:hover{
+    background-color: chocolate;
+    color: rgb(14, 164, 233);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(132, 231, 11);
+}
+.two{
+    display: inline;
+    background-color: rgb(40, 11, 225);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6; 
+    box-shadow: 5px 10px 5px green;
+}
+.two:hover{
+    background-color: rgb(23, 193, 236);
+    color: rgb(11, 173, 232);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(233, 255, 66);
+}
+.three{
+    display: inline;
+    background-color: rgb(112, 111, 111);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    opacity: 0.6; 
+    box-shadow: 5px 10px 5px rgb(228, 3, 134);
+}
+.three:hover{
+    background-color: rgba(215, 19, 19, 0.096);
+    color: rgb(244, 247, 244);
+    opacity: 1;
+    box-shadow: 5px 10px 5px rgb(23, 8, 236);
+
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+}
+.four{
+    height: 10px;
+    background-image: linear-gradient(to left,red,yellow);
+    margin-bottom: 10px;
+    transition: 0.5s;
+}

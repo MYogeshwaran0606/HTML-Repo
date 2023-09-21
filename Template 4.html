@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmEWOJ0qAUYYuwEDvYBw06-UBzaJcGybXJaw&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .d1{
+            height: 200px;
+            width: 100%;
+            padding: 10px;
+            display: inline;
+            text-align: center;
+        }
+        .d2,p{
+            display: inline;
+            float:inline-end;
+            text-align: center;
+            position: relative;
+            left: 100px;
+
+        }
+        .d3{
+            display: flex;
+            float: right;
+            position: relative;
+            right: 200px;
+        }
+        .d4{
+            display: inline;
+            float: right;
+            margin-right: 50px;
+            font-size: medium;
+            word-spacing: 50px;
+            margin-left: 200px;
+            background-color: white;
+            height: 30px;
+            width: 900px;
+        
+            border: 10px solid gold;
+            border-radius: 20px;
+            color: white;
+        }
+        a:hover{
+            color: red;
+            border: 2px solid rgb(218, 13, 13);
+            border-radius: 20px;
+            padding: 5px;
+            
+        }
+        .d5{
+            display: inline;
+            float: right;
+            margin-left: 50px;
+            color: white;
+        }
+        .d6{
+            display: inline;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            border-radius: 20px;
+            
+        }
+        .D7{
+            background-color: red;
+            width: 120px;
+            height: 20px;
+            margin-left: 330px;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <b>Kiddy</b>
+        <div class="d2">
+            <img src="https://media.istockphoto.com/id/1261917621/vector/map-pin-icon-for-your-web-site-and-mobile-app.jpg?s=612x612&w=0&k=20&c=kpqmtnYMH1A1Oyn39shNEbwyhn9gYc1tFsMY2B9Xodo=" width="50px" height="50px"><p>34 Street Name,City Name Here,<br>United States </p>
+            <div class="d3">
+                <img src="data:image/png;base64,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" width="30px" height="30px"><p>Sunday=Friday 8.00AM-4.00PM<br>Saturday Closed</p>
+            </div>
+        </div>
+        <div class="d4">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">PACKAGES</a>
+            <a href="">GALLERY</a>
+            <a href="">PRICING</a>
+            <a href="">CONTACT</a>
+            <div class="d5">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAgVBMVEX///8Zd/P///670/UAa/EAZu0AZe7g7ffl7/oAbPDS4vgAZfDh6/gadvQAZeoNdPMAaurA1/QAcPLP4/RNkOspfO7Z6PWzz+5ZkuoAbOnn8vlpmunA2fI0futFhuRhk+16qO2KsPCqyfXz+/ytye17quehwfGTteoAW+gAUugAWetTIbxLAAADFklEQVRoge2a7XqiMBCFIYKalhg+BBGsZWtd297/BS7gV1BHJiVJ192cpz/6IJPXCTGZhOM4VlZWVlZWVn+7yPcjyYBgsZnvtELIYDxp/qTh7f1kmkSjgYqSqfxXrr/wqkxDb7DCtFyRfS+i2STL/Zi5CsRjP8/w7ObORRirIDdiLg8X+CdPyMJnbZgq+Qs8PAvVcVsxmiHZDpkr6/OjeI7KvO6fla+aXXf8CjNn1L+LUs04F8V4iRpzZJoqZ9dKC9R0mSw1sN1lgoATJ6I64DRCPfSRpwU+QmWuB+6NMIlrytwb9bMfDc4Y5/FBnHNj8HpC4NR9Wb+W1a9GVfm6Npc5p+u3bNNpYH47d+Vw5s2TdtZsy739P6bgfPnergXdBszAWZrdWiyMwJmb3awLTcAZj26X9Sbg8RZYoA3A+csGWCgMwOnva7apnxpzr7ZB5LAx0Q8HqtFmFOiH091V1sX7bltV2y1QASqEe1E3yEnWz/SwsAER6uDjrDve3uiJCZS+CuH+pBOUzFjfzk4TvB7iOVRC6IEHYswGUenr6nYyRWzu1MKFATcdW7iF/7vw8URgEwEOznOD4TE96kOAExJ80LO0zO2sXsqeTtqI8M35+lMGzHZDM58V57vERy4WkmQz05O5AIeVAFPtYPikP7xe2X8OTiotlQwSDtSPZrodOkE0AS/C22wjoz2C6goTme+g40uFkwyoCjqqVwAn59vEkHaX1goa7IPhYRKc1AlxTpcT8Lh8IJy5/vNRn5kYEXwer4/1Laln/b+VjIVbuIVbuIVbOBKOe5GrB05wL3IfL3OMcyDSAqcRTBQyT6BNxxA4C3G2BYxhQz7ztEBZVZyy/wxZGh6XSG8dwqQjDceZdJrk+4/PJeEMaU9qNOk1ZsnCwwCmXaa+t6QpgzN/JOGH6zXjoeGsziJeLvA21GbXGeQ+v/PORiLzeJYHUv7TowGTArZK+tU5Jwi+wBv3BkxH3oBb3LGedo8/71hPMXPLrfT3plngQ+D486IFKdNpt33Y8UsubwRakPf7WllZWVlZWT2W/gDP4D74gBwtmQAAAABJRU5ErkJggg==" width="20px" height="20px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDo1cTT-r5CEI-q9DA4w1gmdVfKpawamdvNdIZpgy8g&s" width="20px" height="20px">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAA2FBMVEX///8BcrH+/v4BYZcBXpIBbakBZ6ABV4cBWowBZJsBaqUBUX4BVIIAa64BTnkAcLABR24AZ6wBP2MBOloicrEAXqgANlTJ2ehek8IAYamMrtB5n8g7gLje6PGFqMy8xM/u9fmhvtm4zOGvucTT4OwzerVTi73M0dYzV3ecqLgrXYNpmcQAMmEAHkUAO20AKFIrZZAAU4sARXYAL1bn6eyGladMY38jSm5TeJsAO2QAJVoAGlAAQIAtcaUARn2WnqlQXnIsQV8ACDudsclmgqBxf5QAT5QAV5d1N3uxAAAFn0lEQVRoge3aa3vaNhQAYMeBQAAhC0KNTQx2EugoaehSujXd1qTrtv7/f1RJvkg2kiXLJvvi86HPQ3N5c2xdj2RZbbTRRhtttNGGZdk0Xp0N3chfzDfXODbzhR+54SvBd9EOzDwAuQDeDOyiuxPDtrsEAMAzQUD8haV7upcQ+GuJnPlrPzgNvYBlcurDRfN8sPDUdMx7DfP20gM6chzAWzb47m9QBZry6KYhOtxVpHFAtAubsN11dZskv3br2xHSamei5KO69tIzo0l4y1q0PUfm9tkZmtdo9fbG6HWzABtjvbZdR5/XtrE+N7OXtd53Gsio1UU12jkfnkGPcxvJmwSqPNqEa8Ox5TjgOqyIG4zn0gC7avZNYw+dRLU5zjYd0MUBUZXevmzwoZMAFfpb0FAvY+Hpr6wWDSeOU1/UTpyszQ117dRliXsbP1pUXc4loZt6AMVbkqv4jzdrjBDqpe6L+/jgYMWbUt9IR76ObV8LEwef0i1xcGYyCMBrnb7uChOD928T3LY2RiMQ0JlfxO/U2dfGdQYa4ZbMcZ626WMP1yY27qdq+06U+NjBYce6FRn2daCuHoh+NbWffgvpN9yYjjNAvaTZHT11OHRi/fdPt6vtZ72dsiCgelo//t2jMQ6H8vf7R/O5Vv3Sw1nxZ4bjcaZPRrLfC4B4XORjFipwtzipjIap/uXLH3/OcNABEM2SgKQYsFn6/nIzU7wRT9XTi+2tNxwm+rswOAQ4DhEijeeAPxzwP2sI/DgjO4yuShujssX5+T++PxoluvMu/RayvntcpZ/+gnesFhmUbnKganhf5PB+b0R1mnlKYLy3v00/DYJ05COf7DIdqqbVOY/3ez2mc3hvmuG2y9lEL2l3ULFvs/lxu0/wTGf418mE4Tk7fi5SXLFl5efTTr/f53LP8NW949zfMjT+weyTvMmrZlUOP+90+nzuMtyyV8/Ph4wvWWvo45edTl6X4Nbh5T2O56zJy8d+bfzy/Dyny3DL+vbxDY6/s/8IzB970uCwzeskdQl+u59Oif6SzrjhlUxXNbikq11cpjpLXYK/vJnG+iHBbTmuKpHQQeYC40Vdhv8ynVL9/Vs1rhpkyPA6uEh1/rUz/IHhVoJPtXDV8IonlgHBj/UPDB/z+EQbV04sLuoOxDqPj/nMJ5TXwJXFmXDW7XaFeg5/4DLXxpWLCQt1OZ3vcCX4RAvXWDvPAcXzehn+FOsauHoBGYGuWC/LHOtqXGPpjDcNTOdfezk+2atxjSNHPCUKdQ4fmuA62yW6UeQffKrz+JDHHT1ca6NIt8gCneFfMb7icEcP19ki01lV0Ohy+GMOdzRwveJAXBY51jl8lOF4Yom3MkpcryySFISO9A/p1zE+esjW7THuEDwJIa5bEEpKYUf6920cn8ns/k/yYesk8fTv9pnGd3FJR7cKmBQBu4VR/tck4rXFYxLjBJ88faTxKF7CIe36Z1IFFHU4fjXN71/jJj+ZDoV0hfJnVv8U6Pm1PI87JXaVwm9akeqq9GFen44ldpWSd1bsh4VG1ynNfSKzqxX7sx1XsckXdxK5soXsmVc85mAHPBV0qV31gIcdbRU7nFSXlGtMjrbYoZ5cz+FS2+BQjzvOFHf3fOpOT2qbHGeyg1xlh8N4X5634fWB+VGju5R0OLlteoTNDu8levrkxx253cDVgdImPzyJzV3YKNFL7FoXNix2VUW2j+mNzqV2zasqFrukI5lf5XYDl3Sy60niDteT2o1cTyIXs5BoUUdTv5Sm3czFLCu9kibocDK7uStpVnoZ76jJX0joRi/jWeQaIgKwoAttCNBJbkFCNOA7nMg+zQVMyvvXAGSN7tiGAFyf6OopCXrpFlF9UIBPfek2jrtoh/77MeDvGwP0GteN0/jfLlqzSPapbbTRRhtttNGGZf0Eg761zCP5VykAAAAASUVORK5CYII=" width="20px" height="20px">
+            </div>
+        </div>
+        <div class="d6">
+            
+            <h4>BRING FUN LIFE TO <BR>YOUR KIDS</h4>
+            <h6>Amazing Playground For Your Childrens </h6>
+            <div class="D7">LEARN MORE</div>
+        </div>
+    </div>
+</body>
+</html>

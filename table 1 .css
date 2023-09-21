@@ -1,0 +1,25 @@
+th,td{
+    border: 3px solid orange;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody th{
+    background-color: brown;
+}
+
+tbody tr:nth-child(odd){
+    background-color: coral;
+}
+tbody tr:nth-child(even){
+    background-color: chartreuse;
+}
+thead th{
+    background-color: aqua;
+}
+tbody tr:nth-child(3){
+    background-color: bisque;
+}
+
